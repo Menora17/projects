@@ -1,0 +1,4 @@
+﻿  CodeGeneration.c
+C:\Users\uriel\OneDrive\Desktop\lexer1\lexer1\CodeGeneration.c(62): warning C4716: 'code_generator_label_create': must return a value
+C:\Users\uriel\OneDrive\Desktop\lexer1\lexer1\CodeGeneration.c(69): warning C4716: 'code_generator_symbol_address': must return a value
+  lexer1.vcxproj -> C:\Users\uriel\OneDrive\Desktop\lexer1\Debug\lexer1.exe

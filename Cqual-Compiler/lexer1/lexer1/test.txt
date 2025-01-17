@@ -1,0 +1,13 @@
+﻿int sum(int x, int y end) {
+    x=5;
+    y=6;
+    main(x end)
+    return x + y;end
+}
+int main(int q, int z end) {
+    int a = 5;
+    string str= "test" ;
+    int b = "test" * 6;
+    sum(a,b end)
+    if a > b then sum(b,a end)end
+}end
