@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468429194359",
+    "project_id": "cryptoaifirebase",
+    "storage_bucket": "cryptoaifirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468429194359:android:02c07ed700747b5d923272",
+        "android_client_info": {
+          "package_name": "com.example.cryptoai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468429194359-a8b7djs3evnkb4aam3jj2f1g5mpkndlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdffEA9mPr1cpOiJv4CN6u0smR444fsMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468429194359-a8b7djs3evnkb4aam3jj2f1g5mpkndlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

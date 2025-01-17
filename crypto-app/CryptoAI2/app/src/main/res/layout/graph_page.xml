@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GraphActivity"
+    android:background="#212121"
+    android:weightSum="10">
+
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="place to imageview"
+            android:textColor="#0D7377"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="46dp"
+            android:fontFamily="@font/anonymous_pro"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chose coin"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_above="@+id/spinner_coins"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="25dp"
+        />
+
+    <Spinner
+        android:layout_margin="5dp"
+        android:id="@+id/spinner_coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="18dp"
+        android:layout_weight="1"/>
+
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:id="@+id/graph"
+
+            android:fontFamily="@font/anonymous_pro"
+            android:textColor="#0D7377"
+            android:layout_gravity="center"
+            android:layout_weight="6"/>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/become_a_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="Go Back"
+        android:fontFamily="@font/anonymous_pro"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:onClick="Goback"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_weight="2"
+        android:backgroundTint="#0D7377"
+        android:textSize="25dp" />
+
+
+    </LinearLayout>

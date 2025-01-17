@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:weightSum="10"
+    tools:context=".Newusers">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="place to imageview"
+
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textSize="25dp"
+        android:fontFamily="@font/anonymous_pro"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        tools:context=".Newusers">
+
+        <EditText
+            android:id="@+id/etnewname"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:hint=" name:"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="24dp"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/anonymous_pro"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        tools:context=".Newusers">
+
+        <EditText
+            android:id="@+id/etnewpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:hint=" password:"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="24dp"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/anonymous_pro"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        tools:context=".Newusers">
+
+
+        <EditText
+            android:id="@+id/etnewemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:hint=" email:"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="24dp"
+            android:textColorHint="@color/white"
+            android:fontFamily="@font/anonymous_pro"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btngo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:backgroundTint="#0D7377"
+        android:bottomLeftRadius="15dp"
+        android:bottomRightRadius="15dp"
+        android:fontFamily="@font/anonymous_pro"
+        android:text="submit"
+        android:onClick="create"
+        android:textAllCaps="false"
+
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp" />
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:backgroundTint="#0D7377"
+        android:bottomLeftRadius="15dp"
+        android:bottomRightRadius="15dp"
+        android:fontFamily="@font/anonymous_pro"
+        android:text="go back"
+        android:onClick="create"
+        android:textAllCaps="false"
+
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp" />
+
+</LinearLayout>
