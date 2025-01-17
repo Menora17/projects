@@ -169,7 +169,7 @@ public class MyForegroundService extends Service {
                 // in this method passing headers as
                 // key along with value as API keys.
                 HashMap<String, String> headers = new HashMap<>();
-                headers.put("X-CMC_PRO_API_KEY", "1757d359-6449-4d2d-8f1b-5fb772961581");
+                headers.put("X-CMC_PRO_API_KEY", "secret");
                 // at last returning headers
                 return headers;
             }
